@@ -15,5 +15,5 @@ make
 ## Run 
 
 ```
-./video_player ./clips/sample.webm
+./bin/video_player ./clips/sample.webm
 ```
