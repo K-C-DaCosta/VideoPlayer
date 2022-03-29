@@ -1,15 +1,16 @@
 make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/narco/Documents/langs/C/video_player'
+make: Entering directory '/home/narco/Documents/langs/C/VideoPlayer'
 echo asdasd  and makefile.c 
 asdasd and makefile.c
 cc    -c -o makefile.o makefile.c
-gcc     -Wall -O3 -g3  -I'./include'    ./src/main.c -lavfilter -lavdevice -lavformat -lavcodec -lavutil -lswscale  -lswresample -lvpx -lz -lpng  -lm -lpthread -lSDL2    -o ./bin/video_player 
-rm makefile.o makefile.c
-make: Leaving directory '/home/narco/Documents/langs/C/video_player'
  
 cc: error: makefile.c: No such file or directory
 cc: fatal error: no input files
 compilation terminated.
 make: *** [<builtin>: makefile.o] Error 1
 make: Failed to remake makefile 'makefile'.
+ 
+gcc     -Wall -O3 -g3  -I'./include'    ./src/main.c -lavfilter -lavdevice -lavformat -lavcodec -lavutil -lswscale  -lswresample -lvpx -lz -lpng  -lm -lpthread -lSDL2    -o ./bin/video_player 
+rm makefile.o makefile.c
+make: Leaving directory '/home/narco/Documents/langs/C/VideoPlayer'
  
